@@ -12,20 +12,20 @@ const developers = [
     email: 'https://www.email.com/in/johnsmith',
   },
   {
+    name: 'Pratham Shah',
+    image: 'https://via.placeholder.com/150',
+    description: 'Full Stack Web developer with experience in React, Nodejs, and MongoDB. Enjoys solving complex problems and optimizing code for performance.',
+    github: 'https://github.com/prathamshah10',
+    instagram: 'https://instagram.com/bobjohnson',
+    email: 'https://www.email.com/in/bobjohnson',
+  },
+  {
     name: 'Rajdeep Sharma',
     image: 'https://via.placeholder.com/150',
     description: 'Front-end developer with experience in React, HTML, and CSS. Loves creating beautiful and intuitive user interfaces.',
     github: 'https://github.com/Vibranium1',
     instagram: 'https://instagram.com/janedoe',
     email: 'https://www.email.com/in/janedoe',
-  },
-  {
-    name: 'Pratham Shah',
-    image: 'https://via.placeholder.com/150',
-    description: 'Back-end developer with experience in Python, Django, and MySQL. Enjoys solving complex problems and optimizing code for performance.',
-    github: 'https://github.com/prathamshah10',
-    instagram: 'https://instagram.com/bobjohnson',
-    email: 'https://www.email.com/in/bobjohnson',
   },
 ];
 const About = () => (

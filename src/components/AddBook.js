@@ -32,7 +32,7 @@ const AddBook = () => {
 
   const sendRequest = async () => {
     await axios
-      .post("online-bookstorebackend-production.up.railway.app/books", {
+      .post("ccl-backend-production.up.railway.app/books", {
         name: String(inputs.name),
         author: String(inputs.author),
         description: String(inputs.description),

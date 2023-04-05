@@ -18,7 +18,7 @@ const BookDetail = () => {
   useEffect(() => {
     const fetchHandler = async () => {
       await axios
-        .get(`online-bookstorebackend-production.up.railway.app/books/${id}`)
+        .get(`ccl-backend-production.up.railway.app/books/${id}`)
         .then((res) => res.data)
         .then((data) => setInputs(data.book));
     };
@@ -27,7 +27,7 @@ const BookDetail = () => {
 
   const sendRequest = async () => {
     await axios
-      .put(`online-bookstorebackend-production.up.railway.app/books/${id}`, {
+      .put(`ccl-backend-production.up.railway.app/books/${id}`, {
         name: String(inputs.name),
         author: String(inputs.author),
         description: String(inputs.description),
