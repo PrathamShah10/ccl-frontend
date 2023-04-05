@@ -16,7 +16,7 @@ const Books = () => {
     <div>
       <ul>
         {books &&
-          books.map((book, i) => (
+          books?.map((book, i) => (
             <li key={i}>
               <Book book={book} />
             </li>
