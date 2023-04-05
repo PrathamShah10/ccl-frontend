@@ -7,7 +7,7 @@ const Book = (props) => {
   const { _id, name, author, description, price, image } = props.book;
   const deleteHandler = async () => {
     await axios
-      .delete(`ccl-backend-production.up.railway.app/books/${_id}`)
+      .delete(`https://ccl-backend-production.up.railway.app/books/${_id}`)
       .then((res) => res.data)
       .then(() => history("/"))
       .then(() => history("/books"));
